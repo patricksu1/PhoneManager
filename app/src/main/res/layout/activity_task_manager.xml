@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/available_mem_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:fontFamily="casual"
+        android:gravity="right"
+        android:paddingRight="6dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/android_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:clickable="true"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:dividerHeight="5dp"
+        android:longClickable="true"
+        android:smoothScrollbar="true"></ListView>
+
+    <TextView
+        android:id="@+id/num_processes_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="right"
+        android:paddingRight="6dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+</LinearLayout>

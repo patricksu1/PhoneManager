@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PhoneManager</string>
+    <string name="file">File Manager</string>
+    <string name="task">Task Manager</string>
+    <string name="System">System Information</string>
+    <string-array name="Planets">
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
